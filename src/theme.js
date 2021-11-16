@@ -6,11 +6,9 @@ const theme = createMuiTheme({
     type: "dark",
   },
   overrides: {
-    // Style sheet name ⚛️
-    // Write component name for style overrides
     MuiButton: {
       root: {
-        // backgroundColor: "red",
+
         marginTop: 20,
 
         "&:not(:last-child)": {
@@ -27,7 +25,6 @@ const theme = createMuiTheme({
 
     MuiCssBaseline: {
       "@global": {
-        // wirte global styling here
 
         "::-webkit-scrollbar": {
           width: "10px",
@@ -44,9 +41,8 @@ const theme = createMuiTheme({
       },
     },
   },
-  // set default props of any component
+  
   props: {
-    // Name of the component ⚛️
     MuiContainer: {
       component: Box,
       p: 3,
